@@ -8,12 +8,11 @@ body {
 }
 
 header i.icon{
-    position: absolute; /* Car son parent (header) a une postion relative*/
-    right: 30px; /* sa postion par rapport à la droite de la page*/
-    top: 34px; /* sa postion par rapport au top de la page*/
+    position: absolute; 
+    right: 30px; 
+    top: 34px; 
     z-index: 10;
-    display: none;/*on le l'affiche pour aucun ecran et dans le @media on le fera s'afficher pour les petits écrans*/
-/*    display: block;*/
+    display: none;
 
 
 
@@ -49,8 +48,7 @@ header i.icon{
 
 .overlay{
 
-    /* c'est l'enfant de .home donc s'il a une position absolute sont parent aura une position relative*/
-
+    
     position: absolute;
     top: 0;
     bottom: 0;
@@ -130,7 +128,7 @@ header nav .nav-list .list a{
 
 
 header nav .nav-list .list a{
-    display: block; /* Pr pouvoir donner un margin et un padding aux liens*/
+    display: block; 
     letter-spacing: 2px;
 
     text-decoration: none;
@@ -185,7 +183,7 @@ header nav .nav-list a:hover{
 }
 
 .home .home-content{
-    position: absolute; /* car sont parent a une postion relative, on pourra plus facilement le manier*/
+    position: absolute; 
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -487,7 +485,7 @@ img{
 
 
 .img img {
-/* La transition s'applique à la fois sur la largeur et la hauteur, avec une durée d'une seconde. */
+
 -webkit-transition: all 1s ease; /* Safari et Chrome */
 -moz-transition: all 1s ease; /* Firefox */
 -ms-transition: all 1s ease; /* Internet Explorer 9 */
